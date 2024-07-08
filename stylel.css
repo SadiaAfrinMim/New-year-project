@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+body {
+  font-family: "Merriweather", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  max-width: 1500px;
+  height: 700px;
+  background-color: aqua;
+  margin: 0 auto;
+  background-image: url("./images/Banner\ Image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  max-width: 1500px;
+  height: 750px;
+}
+.header-content p {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.header-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* OUR HOLIDAY DEALS ARE BETTER */
+.holiday-hot-deals {
+  margin: 120px 0;
+}
+.holiday-deals {
+  max-width: 802.9px;
+  height: 806px;
+  margin: 0 auto;
+}
+
+.top-holiday-deals h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.top-holiday-deals p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 48px 0 16px 0;
+}
+.top-holiday-deals h4 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.bottom-holiday-deals img {
+  width: 802.9px;
+  height: 500px;
+}
+/* Welcome to midnight party */
+.midnight-clebration {
+  max-width: 1500px;
+  height: 600px;
+
+  margin: 0 auto;
+  background-image: url("images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+}
+.midnight-party {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-party {
+  width: 60%;
+  height: 600px;
+  padding: 0 91px 0 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.welcome-party h3 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+}
+.welcome-party p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 24px 0 48px 0;
+}
+.welcome-party a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.new-year-party {
+  width: 40%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 60px 60px 60px 0;
+}
+.new-year-party img {
+  width: 349.16px;
+  height: 464.65px;
+}
+/* new-parl-hotel */
+.celebrat-new-year {
+  margin-top: 120px;
+}
+.new-parl-hotel {
+  width: 1500px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.information {
+  width: 1500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.information h4 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.details {
+  color: red;
+}
+.information button {
+  border-radius: 8px;
+
+  background: rgb(255, 0, 0);
+
+  padding: 16px 32px 16px 32px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+/* coming-soon-offer */
+.coming-soon {
+  width: 1500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.coming-soon-offer {
+  /* width: 1500px;
+    height: 500px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.news-coming {
+  width: 33.33%;
+
+  padding-right: 50px;
+}
+
+.news-coming h5 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+}
+.coming-soon h4 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 16px 20px 22px 0;
+}
+.coming-soon small {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: justify;
+}
+.new-img {
+  height: 100%;
+  width: 100%;
+}
+/* img{
+width: 364.84px;
+height: 364.84px;
+
+}  */
+.img-coming {
+  width: 28.33%;
+
+  box-sizing: border-box;
+  border: 11px solid red;
+  border-radius: 50%;
+  padding: 20px;
+  align-items: center;
+}
+.celebration-flow {
+  width: 33.33%;
+  padding-left: 50px;
+}
+.celebration-flow small {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.gift-win {
+  padding-top: 25px;
+  width: 30%;
+  height: 40%;
+}
+/* Holidays Sale 50% */
+.holiday-sale {
+  width: 1500px;
+  height: 1080px;
+
+  margin: 0 auto;
+}
+.holiday-content {
+  text-align: center;
+}
+.holiday-content p {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  padding-left: 16px;
+}
+.holiday-content h4 {
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 28px;
+}
+.holiday-content small {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.gift-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 64px;
+}
+.bottom {
+  width: 1500px;
+  height: 300px;
+  border: 5px solid red;
+  background-color: red;
+  border-radius: 0 0 16px 16px;
+
+  margin-top: -200px;
+}
+.percent {
+  padding-bottom: 100px;
+}
+/* our protfolio section */
+.our-protfolio {
+  margin: 0 auto;
+  width: 1500px;
+  height: 1300px;
+  margin-top: 120px;
+}
+.protfoli-content h6 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+.protfoli-content h4 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 16px 0 22px 0;
+}
+.protfoli-content small {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.grid-photo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding-top: 48px;
+}
+.imge-grid img {
+  height: 100%;
+  width: 100%;
+}
+/* sub-newsletter */
+.sub-newsletter {
+  margin: 120px 0;
+}
+.Subscribe {
+  max-width: 1500px;
+  height: 650px;
+  margin: 0 auto;
+
+  border-radius: 16px;
+
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-content {
+  max-width: 1500px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-content img {
+  width: 150px;
+  height: 150px;
+}
+.subscribe-content h4 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 40px 0 22px 0;
+}
+.subscribe-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 22px 0 48px 0;
+}
+.sub-btn {
+  display: flex;
+}
+.sub-btn [type="text"] {
+  width: 500px;
+  padding: 20px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  background: rgb(255, 255, 255);
+}
+.sub-btn button {
+  border-radius: 0 50px 50px 0;
+  border-radius: 0px 50px 50px 0px;
+
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  border: none;
+}
+.footer {
+  padding: 120px 0;
+
+  margin: 0 auto;
+  background: rgb(7, 2, 17);
+}
+.address {
+  display: flex;
+  justify-content: space-around;
+}
+.address h5 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 20px 0;
+}
+.icon img {
+  margin: 0 8px;
+}
+.reserve {
+  display: flex;
+  justify-content: space-around;
+}
+.reserve h5 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  padding-top: 20px;
+}
